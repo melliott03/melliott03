@@ -1,0 +1,72 @@
+
+
+@font-face {
+  font-family: 'ArchivoNarrow-Regular';
+  src: url('archivo-narrow/ArchivoNarrow-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font: 16px Helvetica, Sans-Serif;
+	background-image: url(agsquare.png);
+  width: 600px center: auto;
+}
+
+.resume {
+  width: 800px;
+  margin: 40px auto 60px;
+}
+
+img[id=photo] {
+  opacity: 100;
+  float: right;
+  width: 140px;
+  height: 150px;
+  
+
+}
+
+img:hover{
+  opacity: 0;
+  float: right;
+  width: 165px;
+  height: 181.5px;
+  transition: opacity  3s ease-in-out;
+
+}
+
+.name_contact hr { 
+    position: relative;
+  	top: 91px;
+  	left: 55px;
+
+    display: inline;
+    height: 50px;
+    width: 100;
+    color: #8C001A;
+    background-color: #8C001A;  	
+}
+
+h3 {
+  border-bottom: 1px solid #999;
+}
+
+h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5{
+  font-size: 16px;
+}
+h1{
+  font-family: 'ArchivoNarrow-Regular' Times;
+  font-size: 48px;
+}
+
+footer p {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
